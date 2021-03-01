@@ -1,0 +1,72 @@
+/* reset */
+html {
+  font-size: 62.5%;
+}
+body {
+  font: 1.6rem sans-serif;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+ul,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fafafa;
+  font-size: 1.6rem;
+}
+
+nav {
+  background-color: white;
+  width: 100%;
+  height: 5rem;
+}
+
+#logo img {
+  margin: 1rem 0rem 0rem 1rem;
+}
+
+#logo p {
+  font-weight: bold;
+  color: #bbbbbb;
+  margin: -3rem 0rem 0rem 5rem;
+}
+
+#menu {
+  position: absolute;
+  max-width: 100%;
+  margin: -2.2rem 0rem 0rem 67rem;
+}
+
+#menu ul li {
+  display: inline-block;
+  height: 6rem;
+  padding-left: 7.3rem;
+}
+
+#menu a {
+  padding: 2rem;
+  padding-bottom: 1.2rem;
+}
+
+#menu a:hover {
+  background-color: #dd5347;
+  color: #fafafa;
+}
