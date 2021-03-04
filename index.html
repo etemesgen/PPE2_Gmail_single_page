@@ -24,7 +24,7 @@
           <ul>
             <li><a href="#">POUR LES PROS</a></li>
             <li><a href="#">CONNEXION</a></li>
-            <li><a href="">CRÉER UN COMPTE</a></li>
+            <li><a href="#form">CRÉER UN COMPTE</a></li>
           </ul>
         </section>
       </nav>
@@ -37,12 +37,64 @@
           Retrouvez la fluidité et la <br />
           simplicité de Gmail sur <br />
           tous vos appareil
-          <a href="">CRÉER UN COMPTE</a>
+          <a href="#form">CRÉER UN COMPTE</a>
         </p>
       </section>
       <section id="arrow">
-        <a href=""><img src="./image/arrow.png" /></a>
+        <a href="#form"><img src="./image/arrow.png" /></a>
       </section>
+
+      <div id="form" role="region">
+        <h1 id="form1">
+          Une boîte de réception <br />
+          entièrement repensée
+        </h1>
+        <p>
+          Avec les nouveaux onglets personnalisables, repérez <br />
+          immédiatement les nouveaux messages et choisissez <br />
+          ceux que vous souhaitez lire en priorité.
+        </p>
+        <br />
+        <br />
+        <fieldset>
+          <legend>Créer un compte</legend>
+          <form action="<?php $_SERVER['PHP_SELF']?>" method="post">
+            <label for="nom">Nom *</label>
+            <input
+              type="text"
+              name="nom"
+              id="nom"
+              placeholder="Votre nom"
+              autofocus
+            />
+            <label for="prenom">Prénom *</label>
+            <input
+              type="text"
+              name="prenom"
+              id="prenom"
+              placeholder="Votre prénom"
+              autofocus
+            />
+            <label for="mail">Mail *</label>
+            <input
+              type="text"
+              name="mail"
+              id="mail"
+              placeholder="Votre mail"
+              autofocus
+            />
+            <label for="password">Choisir votre mot de passe *</label>
+            <input
+              type="text"
+              name="password"
+              id="password"
+              placeholder="Votre mot de passe"
+              autofocus
+            />
+            <input type="submit" value="Valider votre compte" />
+          </form>
+        </fieldset>
+      </div>
     </main>
 
     <footer></footer>

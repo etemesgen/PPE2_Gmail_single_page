@@ -57,7 +57,6 @@ nav {
 }
 
 #menu {
-  position: absolute;
   max-width: 100%;
   margin: -2.2rem 0rem 0rem 62rem;
 }
@@ -81,7 +80,7 @@ nav {
 #home img {
   max-width: 100%;
   width: 134.5rem;
-  height: 65rem;
+  height: 70rem;
 }
 
 #home p {
@@ -92,7 +91,7 @@ nav {
   font-size: 3rem;
 }
 
-#home p a {
+#home a {
   position: absolute;
   text-decoration: none;
   color: #fafafa;
@@ -111,4 +110,60 @@ nav {
   border: 0.8rem solid transparent;
   border-radius: 2rem;
   height: 3.2rem;
+  box-shadow: 0.1rem 0.8rem 1.2rem #1a1a1a;
+  position: fixed;
+}
+
+#form {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-top: 9rem;
+}
+
+#form h1 {
+  font-weight: 200;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+#form p {
+  margin: 5rem 0rem 0rem 0rem;
+  text-align: center;
+}
+
+input,
+label,
+textarea {
+  display: block;
+  width: 100%;
+  resize: none;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  padding: 0.1rem;
+  line-height: 2.5rem;
+  border: solid 0.1rem transparent;
+  border-bottom-color: #ccc;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+label {
+  padding: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  background: #09597c;
+  line-height: 4.5rem;
+  text-align: center;
+  color: #fff;
+  border: 0;
+  border-radius: 0.4rem;
+  font-size: inherit;
+  cursor: pointer;
 }
