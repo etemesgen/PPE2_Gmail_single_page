@@ -21,3 +21,9 @@ nav {
   text-align: center;
   margin-top: 4rem;
 }
+
+.warning {
+  background-color: #dd5347;
+  width: 38rem;
+  color: white;
+}

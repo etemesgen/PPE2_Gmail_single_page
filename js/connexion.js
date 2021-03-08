@@ -22,7 +22,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
             if(!this.email.value || !this.password.value){
               element.innerText="Veuillez entrer votre e-mail et votre mot de passe !"
               element.classList.add("warning");
-              element.style.marginLeft = "14rem";
+              element.style.marginLeft = "10rem";
+              element.style.textAlign = "center";
             }
             else{
               document.location.assign("index.html");
